@@ -1,0 +1,12 @@
+
+{
+    "development": {
+        "PORT": 3000,
+        "useNewUrlParser": true,
+        "MONGODB_URI": "mongodb+srv://root:test1234@cluster0-m8swg.mongodb.net/test?retryWrites=true&w=majority"
+    },
+    "production": {
+        "PORT": 80,
+        "MONGODB_URI": "mongodb+srv://root:test1234@cluster0-m8swg.mongodb.net/test?retryWrites=true&w=majority"
+    }
+}
